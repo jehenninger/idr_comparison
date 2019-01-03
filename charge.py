@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 ## script to find mean charge of protein region by sliding window
 
-fasta_file_path = "/Users/jon/data_analysis/young/Ozgur_O/Chromatin_IDR_selected.fasta"
+fasta_file_path = "/Users/jon/Google Drive (WIBR)/projects/active_repressive/181217_charge_analysis_of_ChIP_factors/HDGF_enriched.fasta"
 kmer_len = 5
 
 ## read in fasta file
@@ -24,7 +24,7 @@ histidine_charge_weight = 0.5
 
 # amino_acids = ['A', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'Y']
 
-amino_acids = ['G', 'A', 'S', 'T', 'C', 'V', 'L', 'I', 'M', 'P', 'F', 'Y', 'W', 'D', 'E', 'N', 'Q', 'H', 'K', 'R']
+amino_acids = ['X','G', 'A', 'S', 'T', 'C', 'V', 'L', 'I', 'M', 'P', 'F', 'Y', 'W', 'D', 'E', 'N', 'Q', 'H', 'K', 'R']
 
 # define regular expressions
 charge_pos_regex = re.compile('[RK]')
